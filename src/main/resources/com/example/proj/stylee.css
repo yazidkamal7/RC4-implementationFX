@@ -1,0 +1,73 @@
+#bg{
+    -fx-background-color: #323232;
+}
+
+.button{
+    -fx-background-color: #0092cc;
+    -fx-text-fill: #323232;
+    -fx-min-width: 60px;
+    -fx-pref-width: 120px;
+    -fx-background-radius: 15px;
+    -fx-cursor: hand;
+}
+.button:hover{
+    -fx-background-color: #e2e2e2;
+    -fx-border-radius: 15px;
+    -fx-border-color: #0092cc;
+    -fx-border-width: 1px;
+}
+.label{
+    -fx-text-fill: #779933;
+}
+
+.text-area{
+    -fx-background-color: #323232;
+    -fx-border-color: #454040;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #779933;
+    /*-fx-padding: 10px;*/
+}
+.text-area .content{
+    -fx-background-color: #323232;
+    -fx-padding: 10px;
+
+}
+.text-area .scroll-bar{
+    -fx-background-color: #454040;
+    -fx-background-radius: 10px;
+    -fx-padding: 0px;
+    -fx-end-margin: 0;
+    -fx-start-margin: 0;
+
+}
+
+.text-area .scroll-bar .thumb{
+    -fx-background-color: #779933;
+    -fx-background-radius: 10px;
+}
+
+.text-field{
+    -fx-control-inner-background: #323232;
+    -fx-border-color: #454040;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 7px;
+    -fx-text-fill: #779933;
+    -fx-prompt-text-fill: white;
+
+}
+.context-menu{
+    -fx-background-color: #323232;
+
+}
+.context-menu .label{
+    -fx-text-fill: white;
+    -fx-padding: 2px;
+
+}
+
+.menu-item:focused {
+
+    -fx-background-color: #779933;
+}
